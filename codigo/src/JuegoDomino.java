@@ -13,7 +13,7 @@ public class JuegoDomino {
     private int turno;
 
     public JuegoDomino (String nombresJugadores[], int nFichas) {
-        
+    }
     public JuegoDomino (String nombresJugadores[]) {
         this(nombresJugadores, 7);
     }
