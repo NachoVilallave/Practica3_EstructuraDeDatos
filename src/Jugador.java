@@ -61,6 +61,5 @@ public class Jugador {
 
     @Override
     public String toString() {
-        return "Jugador: " + nombre + ", Fichas: " + fichas.toString();
-    }
-}
+        return nombre + " " + fichas;
+}}

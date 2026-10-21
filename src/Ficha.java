@@ -6,6 +6,8 @@ public class Ficha {
        if((ladoA < 0 || ladoA > 6) || (ladoB < 0 || ladoB > 6)){
            throw new IllegalArgumentException();
        }
+        this.ladoA = ladoA;
+        this.ladoB = ladoB;
     }
 
     public int getLadoA() {
