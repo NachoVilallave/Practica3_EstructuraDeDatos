@@ -14,7 +14,7 @@ public class JuegoDomino {
     // a) Constructor
     public JuegoDomino(String nombresJugadores[], int nFichas) {
         if (nombresJugadores == null || nombresJugadores.length < 2 || nombresJugadores.length > 4) {
-            throw new IllegalArgumentException("El número de jugadores debe estar entre 2 y 4.");
+            throw new IllegalArgumentException();
         }
         this.NJUGADORES = nombresJugadores.length;
         this.NFICHAS = nFichas;
